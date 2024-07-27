@@ -7,7 +7,7 @@ A package for arch linux to iprove perfomence focused for multitasking and code 
 
 - Autoinstaller
 ```
-
+curl -sL https://raw.githubusercontent.com/ALEX5402/Vortex-thermal-pkg/main/install.sh | bash
 ```
 
 - Manual install
