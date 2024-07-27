@@ -6,7 +6,7 @@ pkgdesc='Vortex - Thermal'
 gitgubrepo='Vortex-thermal'
 
 # Version of the package
-pkgver=1.0.3
+pkgver=1.0.1
 
 groups=(vortex)
 # Release number of the package
