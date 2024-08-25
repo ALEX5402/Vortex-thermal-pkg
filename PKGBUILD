@@ -6,7 +6,7 @@ pkgdesc='Vortex - Thermal'
 gitgubrepo='Vortex-thermal'
 
 # Version of the package
-pkgver=1.0.2
+pkgver=2.0
 
 groups=(vortex)
 # Release number of the package
@@ -70,5 +70,7 @@ pkgname=$pkgbase
 
 package() {
     install -d "${pkgdir}/usr"
+    install -d "${pkgdir}/etc"
     cp -rf "${srcdir}/${gitgubrepo}-${pkgver}/usr" "${pkgdir}"
+    cp -rf "${srcdir}/${gitgubrepo}-${pkgver}/etc" "${pkgdir}"
 }
